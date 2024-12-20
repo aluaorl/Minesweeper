@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Игра "Сапёр"</title>
+    <link rel="stylesheet" href="mines.css" />
+  </head>
+  <body>
+    <h1>Игра "Сапёр"</h1>
+    <p>
+      <label for="fieldSize">Размер поля и процент мин:</label>
+      <select id="fieldSize">
+        <option value="5">5</option>
+        <option value="10">10</option>
+        <option value="15">15</option>
+      </select>
+      <select id="minesCount">
+        <option value="15">15%</option>
+        <option value="20">20%</option>
+        <option value="25">25%</option>
+        <option value="30%">30%</option>
+      </select>
+    </p>
+    <p id="minesToGuess">
+      Для выигрыша вам нужно найти: <span id="minesToGuessCount"></span> мин(ы)
+    </p>
+    <p id="flagsCount">
+      Помечено флажками клеток: <span id="flagsCountValue">0</span> 
+    </p>
+    <table id="field"></table>
+    <p id="result"></p>
+    <button id="startButton">Начать!</button>
+  </body>
+  <script src="mines.js"></script>
+</html>

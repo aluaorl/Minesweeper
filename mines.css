@@ -1,0 +1,40 @@
+body {
+  font-family: "Times New Roman", Times, serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+h1 {
+  color: #f00870;
+}
+td {
+  width: 25pt;
+  height: 25pt;
+  border: none;
+  background-color: #80d0f0;
+  text-align: center;
+}
+#result {
+  font-size: 25pt;
+  color: #ee7ec5;
+}
+#startButton {
+  width: 90pt;
+  height: 30pt;
+  background-color: #f00870;
+  border: none;
+  color: white;
+  font-size: 16pt;
+}
+p {
+  font-size: 16pt;
+  color: #fb69aa;
+  margin: 0;
+  padding-bottom: 5pt;
+}
+select {
+  color: #f00870;
+  font-size: 15pt;
+  border: 1pt solid #f788c5;
+  margin-right: 5pt;
+}
